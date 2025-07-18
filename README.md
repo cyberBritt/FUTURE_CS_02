@@ -10,7 +10,7 @@ This repository contains my analysis and reporting for Task 2 of my cybersecurit
 - **Splunk Cloud** – For log ingestion, search, and dashboard creation  
 - **SPL (Search Processing Language)** – To query and classify event severity  
 - **Excel** – To organize suspicious events before analysis  
-- **GitHub** – To document and present the incident workflow professionally  
+- **GitHub** – To document and present the incident workflow professionally 
 
 ---
 
