@@ -81,4 +81,4 @@ This project demonstrates practical experience in:
 
 ---
 
-**Created by:** Brittany (Cybersecurity Student + Future Threat Hunter 🛡️)
+**Created by:** B.Brinson
