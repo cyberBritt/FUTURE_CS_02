@@ -1,5 +1,5 @@
-# FUTURE_CS_02: 
-# SOC Analysis Incident Report
+# FUTURE_CS_02 
+<b>SOC Analysis Incident Report</b>
 
 This repository contains my analysis and reporting for Task 2 of my cybersecurity internship, where I performed log analysis using Splunk to identify suspicious activity and generate incident reports.
 
