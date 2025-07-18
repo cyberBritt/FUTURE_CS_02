@@ -1,5 +1,4 @@
-# FUTURE_CS_02
-# SOC-Analysis-Incident-Reports
+# FUTURE_CS_02: SOC Analysis Incident Report
 
 This repository contains my analysis and reporting for Task 2 of my cybersecurity internship, where I performed log analysis using Splunk to identify suspicious activity and generate incident reports.
 
@@ -16,7 +15,7 @@ This repository contains my analysis and reporting for Task 2 of my cybersecurit
 
 ## 📌 Project Objective
 
-The goal of this project was to simulate the responsibilities of a Security Operations Center (SOC) analyst by:
+The goal of this project was to simulate the responsibilities of a SOC analyst by:
 
 - Investigating user activity logs for anomalies  
 - Detecting malware, suspicious logins, and access attempts  
