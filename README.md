@@ -11,9 +11,9 @@ This task involved analyzing simulated security logs and network events using Sp
 
 ## Tools Used
 - Splunk – SIEM platform for log ingestion and search
-- MITRE ATT&CK – Threat mapping framework
 - Kali Linux – Security testing environment
 - Google Docs, PDF – Incident report creation
+- Excel Spreadsheet for filtered analysis
 
 ## Deliverables
 - SOC Incident Reports (PDF)
