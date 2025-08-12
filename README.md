@@ -29,18 +29,14 @@ This task involved analyzing simulated security logs and network events using Sp
 ```
 SOC-Analysis-Incident-Reports/
 ├── README.md 
-# Project overview
 ├── spl_queries.md 
-# Documented SPL queries with explanations
 ├── reports/ 
-# Written incident summaries per user
 │ ├── bob_incident_report.md
 │ ├── charlie_incident_report.md
 │ ├── david_incident_report.md
 │ ├── eve_incident_report.md
 │ └── alice_incident_report.md
 ├── logs/ 
-# Sample log files (redacted if needed)
 │ └── SOC_Task2_Sample_Logs.txt
 ├── screenshots/ 
 # Visuals from Splunk dashboards
