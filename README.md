@@ -1,32 +1,31 @@
-# FUTURE_CS_02 
-<b>SOC Analysis Incident Report</b>
+# SOC Analysis & Incident Reporting
 
-This repository contains my analysis and reporting for Task 2 of my cybersecurity internship, where I performed log analysis using Splunk to identify suspicious activity and generate incident reports.
+## Project Overview
+This task involved analyzing simulated security logs and network events using Splunk to detect, investigate, and document potential security incidents. The goal was to identify suspicious activity, correlate events, and generate actionable incident reports following SOC (Security Operations Center) best practices.
 
----
+## Skills Gained
+- Log analysis and event correlation
+- Splunk query creation and dashboard development
+- Incident triage and escalation procedures
+- Threat hunting and risk analysis
 
-## 🔧 Tools Used
+## Tools Used
+- Splunk – SIEM platform for log ingestion and search
+- MITRE ATT&CK – Threat mapping framework
+- Kali Linux – Security testing environment
+- Google Docs, PDF – Incident report creation
 
-- **Splunk Cloud** – For log ingestion, search, and dashboard creation  
-- **SPL (Search Processing Language)** – To query and classify event severity  
-- **Excel** – To organize suspicious events before analysis  
-- **GitHub** – To document and present the incident workflow professionally 
+## Deliverables
+- SOC Incident Reports (PDF)
+- Splunk search queries and dashboard screenshots
+- Log files from analysis sessions
 
----
+## Incidents Found
+- Multiple failed login attempts indicating brute force activity
+- Unusual outbound traffic suggesting potential data exfiltration
+- Suspicious admin login from foreign IP address
 
-## 📌 Project Objective
-
-The goal of this project was to simulate the responsibilities of a SOC analyst by:
-
-- Investigating user activity logs for anomalies  
-- Detecting malware, suspicious logins, and access attempts  
-- Classifying events based on severity (High, Medium, Low)  
-- Creating a dashboard to visualize threats by IP, action, and severity  
-- Writing incident summaries per user
-
----
-
-## 📁 Folder Structure
+## Folder Map
 ```
 SOC-Analysis-Incident-Reports/
 ├── README.md 
@@ -50,18 +49,14 @@ SOC-Analysis-Incident-Reports/
 │ ├── event_severity_chart.png
 │ └── spl_query_results.png
 ```
----
-
-## 🔍 Sample Analysis Insights
+## Analysis Insights
 
 - **High Severity Events**: Malware detected (ransomware, rootkit, trojan, worm)
 - **Medium Severity**: Multiple login failures, connection attempts
 - **Low Severity**: Routine file access and login success  
 - **Red Flags**: Users with simultaneous activity across private and public IPs
 
----
-
-## 📈 Dashboards & Visuals
+## Dashboards & Visuals
 
 Splunk dashboards were created to visualize:
 - Event severity classification
@@ -69,15 +64,12 @@ Splunk dashboards were created to visualize:
 - Most common threat types
 - Recent high-priority alerts by user and time
 
----
+## Final Outcome
+The SOC analysis task demonstrated how effective log monitoring and event correlation can detect malicious activity before it escalates.
 
-## ✅ Outcome
-
-This project demonstrates practical experience in:
-- SOC monitoring workflows  
-- Writing SPL queries to detect security events  
-- Incident reporting and documentation  
-- Threat visualization using dashboards  
+- Multiple high-severity incidents were detected uysing Splunk  
+- Main attacker IP 203.0.113.77 had unauthorized attempts with many user logins
+- Incident reporting and documentation for system isolation, IP blocking and full malware investigation
 
 ---
 
