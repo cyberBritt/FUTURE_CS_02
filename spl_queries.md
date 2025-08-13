@@ -6,7 +6,7 @@ These are the SPL queries I used for analyzing the security logs in Splunk.
 To classify events into severity levels (High, Medium, Low) based on the type of action and threat detected.
 
 ```
-index=main sourcetype="SOC_task2_Sample_Logs.txt"
+index=main 
 | rex "user=(?<user>\w+)\s+\|\s+ip=(?<ip>[\d\.]+)\s+\|\s+action=(?<action>[^\|]+)(?:\s+\|\s+threat=(?<threat>.+))?"
 | eval action=trim(action), threat=trim(threat), ip=trim(ip)
 | eval severity=case(
@@ -31,7 +31,7 @@ Low = Everything else nthat may possibly be a false positive
 To identify the IP addresses associated with the most incidents.
 
 ```
-index=main sourcetype="SOC_task2_Sample_Logs.txt"
+index=main 
 | rex "ip=(?<ip>[\d\.]+)"
 | stats count by ip
 | sort - count
@@ -47,7 +47,7 @@ Sorts results to show the most frequent offenders.
 The count of how many times each type of threat shows up in the logs.
 
 ```
-index=main sourcetype="SOC_task2_Sample_Logs.txt"
+index=main 
 | rex "threat=(?<threat>.+)"
 | stats count by threat
 | sort - count
@@ -62,7 +62,7 @@ Helps prioritize which threats are most active.
 Finds which users are most frequently involved in security events.
 
 ```
-index=main sourcetype="SOC_task2_Sample_Logs.txt"
+index=main
 | rex "user=(?<user>\w+)"
 | stats count by user
 | sort - count
