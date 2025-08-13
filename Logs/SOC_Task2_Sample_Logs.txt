@@ -1,4 +1,4 @@
-2025-07-03 06:13:14 | user=charlie | ip=10.0.0.5 | action=connection attempt
+2025-07-03 06:13:14 | user=charlie | ip=10.0.0.5 | action=connection attempt 
 2025-07-03 08:20:14 | user=charlie | ip=192.168.1.101 | action=connection attempt
 2025-07-03 05:04:14 | user=bob | ip=192.168.1.101 | action=login success
 2025-07-03 06:01:14 | user=bob | ip=172.16.0.3 | action=file accessed
