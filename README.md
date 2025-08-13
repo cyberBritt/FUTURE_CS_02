@@ -36,15 +36,15 @@ SOC-Analysis-Incident-Reports/
 │ ├── david_incident_report.md
 │ ├── eve_incident_report.md
 │ └── alice_incident_report.md
-├── logs/ 
+├── Logs/ 
 │ └── SOC_Task2_Sample_Logs.txt
-├── screenshots/ 
-# Visuals from Splunk dashboards
-│ ├── dashboard_view.png
-│ ├── threat_by_ip.png
-│ ├── event_severity_chart.png
-│ └── spl_query_results.png
+├── Screenshots/ 
+│ ├── spl_graph.png
+│ ├── spl_logs.png
+│ ├── spl_report.png
+│ └── spl_severity.png
 ```
+
 ## Analysis Insights
 
 - **High Severity Events**: Malware detected (ransomware, rootkit, trojan, worm)
