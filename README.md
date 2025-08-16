@@ -31,11 +31,11 @@ SOC-Analysis-Incident-Reports/
 ├── README.md 
 ├── spl_queries.md 
 ├── reports/ 
-│ ├── alice_incident_report.md
-│ ├── bob_incident_report.md
-│ ├── charlie_incident_report.md
-│ ├── david_incident_report.md
-│ └── eve_incident_report.md
+│ ├── alice_incident_report.pdf
+│ ├── bob_incident_report.pdf
+│ ├── charlie_incident_report.pdf
+│ ├── david_incident_report.pdf
+│ └── eve_incident_report.pdf
 ├── Logs/ 
 │ └── SOC_Task2_Sample_Logs.txt
 ├── Screenshots/ 
