@@ -43,6 +43,8 @@ SOC-Analysis-Incident-Reports/
 │ ├── spl_logs.png
 │ ├── spl_report.png
 │ └── spl_severity.png
+│ └── top_10_ip_list.png
+│ └── top_ips_graph.png
 ```
 
 ## Analysis Insights
